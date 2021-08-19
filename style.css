@@ -1,0 +1,32 @@
+body{
+    background-color: lightskyblue !important;
+    /* background-image: url("images/bg.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
+    /* background-size: 100vw 100vh; */
+}
+h1{
+    text-align: center;
+    font-size: 100px !important;
+    font-family: Indie Flower;
+    margin-top: 0;
+}
+.player1, .player2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 200px;
+}
+.mybtn{
+    text-align: center;
+    font-size: 40px;
+    color: #9c060c;
+    cursor: pointer;
+}
+.winner h1{
+    font-size: 40px !important;
+    font-family: sans;
+    margin-top: 40px;
+}
